@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
         printf("Got a 1\n");
         digitalWrite (2, HIGH);
         digitalWrite (1, LOW);
-	ifttt("http://red.eecs.yorku.ca:8080/trigger/event/with/key/214716286", "Message Recieved!", "Alarm System Status Update!", "Alarm Triggered!");
+	ifttt("http://red.eecs.yorku.ca:8080/trigger/event/with/key/21557888", "Message get", "System Status Update!", "Triggered!");
        }
     printf("Waiting for event\n");
 	if(digitalRead(0) == 0){
